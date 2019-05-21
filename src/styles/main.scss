@@ -2,6 +2,14 @@
 @import "fonts";
 @import "typography";
 
-body {
-  background: $c-gray;
+td,
+th {
+  cursor: pointer;
+}
+
+thead {
+  font-weight: bold;
+  th:hover {
+    background-color: yellow;
+  }
 }
